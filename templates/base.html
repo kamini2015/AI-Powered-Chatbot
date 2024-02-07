@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<!-- Link to external stylesheet -->
+<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+<head>
+    <!-- Character set and page title -->
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+
+<body>
+    <!-- Container for the entire page -->
+    <div class="container">
+        <!-- Main chatbox section -->
+        <div class="chatbox">
+            <!-- Chatbox support area -->
+            <div class="chatbox__support">
+                <!-- Header section with user image and introduction -->
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <!-- User image -->
+                        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <!-- Heading and description in the header -->
+                        <h4 class="chatbox__heading--header">Chat Support</h4>
+                        <p class="chatbox__description--header">Hi. My name is Kamini. How can I help you?</p>
+                    </div>
+                </div>
+                <!-- Messages area -->
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <!-- Footer section with input field and send button -->
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <!-- Chatbox button section -->
+            <div class="chatbox__button">
+                <!-- Button to toggle the chatbox -->
+                <button><img src="{{url_for('static', filename='/images/chatbox-icon.svg') }} " /></button>
+            </div>
+        </div>
+    </div>
+
+<!-- JavaScript file for chatbot functionality -->
+<!--    <script src="./app.js"></script>-->
+<script>
+    $SCRIPT_ROOT = {{request.script_root|tojson }};
+</script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}">
+</script>
+
+<!--    &lt;!&ndash; Image Popup Container &ndash;&gt;-->
+<!--<div class="chatbox__popup" id="imagePopup">-->
+<!--    <span class="close-button" onclick="closeImagePopup()">&times;</span>-->
+<!--    <img id="popupImage" alt="Popup Image">-->
+<!--</div>-->
+<!-- Image Popup Container -->
+<div class="chatbox__popup" id="imagePopup">
+    <span class="close-button" onclick="closeImagePopup()">&times;</span>
+    <img id="popupImage" alt="Popup Image">
+</div>
+</body>
+</html>
