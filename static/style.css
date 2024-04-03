@@ -15,18 +15,18 @@ body {
 
 /* Global styles and CSS variables */
 *, html {
-    --primaryGradient: linear-gradient(93.12deg, #8a5aff 0.52%, #b380ff 100%);
-    --secondaryGradient: linear-gradient(268.91deg, #8a5aff -2.14%, #b380ff 99.69%);
+    --primaryGradient: linear-gradient(93.12deg, #f42153 0.52%, #f42153 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #f4215399 -2.14%, #f42153 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primary: #b380ff; /* Purple color */
+    --primary: #f42153; /* red color */
 }
 
 
 /* Chatbox styles */
 .chatbox {
     position: absolute;
-    bottom: 30px;
+    bottom: 30px; /* to move the bot button up and down */
     right: 30px;
 }
 
@@ -100,7 +100,7 @@ body {
 /* Additional styling for chatbox support area */
 .chatbox__support {
     background: #f9f9f9;
-    height: 450px;
+    height: 500px;
     width: 350px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 20px;

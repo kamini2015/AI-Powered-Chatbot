@@ -16,7 +16,6 @@ class Chatbox {
     // Method to set up event listeners and handle user interactions
     display() {
         const { openButton, chatBox, sendButton } = this.args;
-
         // Event listener for opening/closing the chatbox
         openButton.addEventListener('click', () => this.toggleState(chatBox));
 
@@ -62,8 +61,7 @@ class Chatbox {
         this.updateChatText(chatbox);
     }
 
-
-    // Method to handle sending messages
+//function for locally  // Method to handle sending messages
   onSendButton(chatbox) {
     var textField = chatbox.querySelector('input');
     let text1 = textField.value;
@@ -109,6 +107,58 @@ class Chatbox {
         });
     }, 10); // Adjust the delay time (in milliseconds) as needed
     }
+
+//// NEW for Deployment
+//onSendButton(chatbox) {
+//    var textField = chatbox.querySelector('input');
+//    let text1 = textField.value;
+//
+//    if (text1 === "") {
+//        return;
+//    }
+//
+//    // Construct user message
+//    let msg1 = { name: "User", message: text1 };
+//    this.messages.push(msg1);
+//
+//    // Simulate typing animation
+//    this.updateChatText(chatbox);
+//
+//    // Delay before sending user message to the server
+//    setTimeout(() => {
+//        // Send user message to the server for prediction
+//        fetch('https://chatbot-moodle.onrender.com/predict', {
+//            method: 'POST',
+//            body: JSON.stringify({ message: text1 }),
+//            mode: 'cors',
+//            headers: {
+//                'Content-Type': 'application/json'
+//            },
+//        })
+//        .then(response => {
+//            if (!response.ok) {
+//                throw new Error('Failed to fetch');
+//            }
+//            return response.json();
+//        })
+//        .then(r => {
+//            // Process server response and construct Kamini's message
+//            let msg2 = { name: "Kamini", message: r.answer };
+//            this.messages.push(msg2);
+//
+//            // Update the chatbox with the new messages
+//            this.updateChatText(chatbox);
+//            textField.value = '';
+//        }).catch((error) => {
+//            // Handle errors from the server
+//            console.error('Error:', error);
+//            // Display error message in the chatbox
+//            this.messages.push({ name: "Error", message: "Failed to fetch. Please try again later." });
+//            this.updateChatText(chatbox);
+//            textField.value = '';
+//        });
+//    }, 10); // Adjust the delay time (in milliseconds) as needed
+//}
 
 
  updateChatText(chatbox) {
