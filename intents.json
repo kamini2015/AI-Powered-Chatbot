@@ -3,155 +3,119 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
-        "Hey",
+        "Hi.+",
+        "hi",
+        "Hey.+",
+        "hie",
+        "hie.+",
         "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day",
-        "Hola",
-        "Bonjour"
+        "Hello", "hey", "hey.+", "hy"
       ],
       "responses": [
-        "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
     },
-
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye","Bie"],
+      "patterns": ["Bye", "See you later", "Goodbye","Bie", "Bie.+"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
         "Bye! Come back again soon."
       ]
     },
-
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Thx","Tanks","thanx","Thanks.+" ],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
-
-      {
-  "tag": "Moodle",
-  "patterns": [
-    "how to use moodle",
-    "can't access moodle",
-    "Moodle Tour",
-    "Explore Moodle",
-    "Features of Moodle",
-    "Moodle functionalities"
-  ],
-  "responses": [
-    "Welcome to our Moodle Tour! Join us on an exciting journey as we explore the incredible features and functionalities of Moodle. <br><br>To watch the video and discover how Moodle can transform your learning experience.<br> [Click here to watch the video](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F1%2E%20Moodle%20Tour%2FMoodle%20Tour%20Students%2DEdited%20Jan%202025%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
-  ]
-},
     {
-        "tag": "lockdown_browser",
-        "patterns": [
-          "LockDown Browser features",
-          "Install LockDown Browser",
-          "Why use LockDown Browser at LCIT",
-          "Watch LockDown Browser video",
-          "download lockdown browser"
-        ],
-        "responses": [
-          "You can download LockDown Browser by clicking on the link given below. [Download here](https://download.respondus.com/lockdown/download.php?id=455127677) <br> [image](https://loyalistcollege.com/wp-content/uploads/2023/10/LCIT-Home_Campus-1536x629.png)<br>"]
-      },
-       {
-        "tag": "schedule",
-        "patterns": [
-          "How do I find my schedule?",
-          "How do I locate my schedule?",
-          "Where can I see my schedule?",
-          "Finding my schedule",
-          "Locating my schedule"
-        ],
-        "responses": [
-          "You can easily find your schedule by logging into Moodle and navigating to the 'Schedule' section. If you need further assistance, please let me know."
-        ]
-     },
-
-      {
-        "tag": "submit_assignment",
-        "patterns": [
-          "How to submit my assignment?",
-          "Can you guide me in submitting assignments?",
-          "Assignment submission process",
-          "Submit assignment instructions"
-        ],
-        "responses": [
-          "Watch the video to learn how to submit your assignment.<br> [Click here to watch the video.](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F3%2E%20How%20to%20submit%20My%20Assignment%2FHow%20to%20Submit%20Assignment%20%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
-        ]
-      },
-      {
-        "tag": "find_teacher_email",
-        "patterns": [
-          "How to find my teachers email?",
-          "Locate instructors email",
-          "Where can I find my teachers contact?",
-          "Teacher email address in Moodle"
-        ],
-        "responses": [
-          "Watch our helpful video tutorial to learn how to easily locate your teacher's email address within Moodle.<br> [Click here to watch the video](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F4%2E%20How%20to%20find%20my%20Teacher%27s%20email%2FHow%20to%20View%20Instructor%27s%20email%20%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
-
-        ]
-      },
-      {
-        "tag": "find_grades",
-        "patterns": [
-          "How to find my grades?",
-          "Access course grades in Moodle",
-          "Check academic progress",
-          "View my grades"
-        ],
-        "responses": [
-          "Explore with us in this informative video tutorial, where we'll walk you through accessing your courses and checking your grades within Moodle. <br>[Click here to watch the video !](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F5%2E%20How%20to%20Find%20my%20course%20and%20Grades%2FHow%20To%20View%20courses%20and%20grades%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
-        ]
-      },
-
-      {
-    "tag": "LinkedIn_Learning",
-    "patterns": [
-      "how to use linkedin learning",
-      "What is LinkedIn Learning?",
-      "Tell me about LinkedIn Learning",
-      "Courses on LinkedIn Learning",
-      "Access to LinkedIn Learning"
-    ],
-    "responses": [
-      "LinkedIn Learning is an American online learning platform available for all students at LCIT. It provides video courses taught by industry experts in software, creative, and business skills. Click [here](https://adfs.lcaat.ca/adfs/ls/?SAMLRequest=fZJLU8IwFIX3%2FopO9n0QUDRDy5SiI6NghcqCDRPaUDKkCc1NW%2FXXW3mMujGLTDJzz7nnfslg%2BF4Iq2YauJI%2B6jgesphMVcZl7qO35MG%2BRcPgagC0EPhAwsrs5JyVFQNjjduNS2qOyp0xByCuS7MtOCKl1DgpPd5cAS6yHpRO2VHuoy0VwJA1GfvoebI2WV6U%2B%2B1NV%2FdV73q%2FV6rmeVnedXBbAjEF4DX7EQFUbCLBUGl8hD3csTuejb0EY9Lrkeuuc%2Bv1V8iKtTIqVWLE5WmWSkuiKHAgkhYMiEnJIpw%2BE%2Bx4ZHMqAvKYJLEdvywSZC0vTPA3k5aSBHKi8L%2FX4dwYBSdo5JhY%2F3b436AdmOlvqCi4QG2axhFc7lmb0klV4QpGtWwTu%2BHoPjyv%2FIOez%2F1o1bw%2BTrvR50jUOc%2FKeOnN1zP81GyibLnj%2BcD9HS24vO6szTIZx0rw9MMKhVBNpBk1LXyjK4bc4Kz7%2Bw%2BCLw%3D%3D) to get access."
-    ]
-  },
-
-{
-  "tag": "TBC_Policies",
-  "patterns": [
-    "Tell me about TBC Policies",
-    "What are TBC Policies?",
-    "Access TBC Policies",
-    "TBC Policies information"
-  ],
-  "responses": [
-    "To learn more about TBC Policies, click [here](https://tbcollege0.sharepoint.com/sites/QASourcePoliciesProceduresForms/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FQASourcePoliciesProceduresForms%2FShared%20Documents%2FPolicies%20and%20Procedures%2FP%26P%20share%2FSLT%20Access%2FStaff%20Access%2Feveryone%2FTPO%20011%20%2D%20LMS%20001%20%2D%20Learning%20Management%20System%20%28LMS%29%20%20%2Epdf&parent=%2Fsites%2FQASourcePoliciesProceduresForms%2FShared%20Documents%2FPolicies%20and%20Procedures%2FP%26P%20share%2FSLT%20Access%2FStaff%20Access%2Feveryone&p=true&ga=1) for the link."
-  ]
-},
-
+      "tag": "Moodle",
+      "patterns": [
+        "how to use moodle",
+        "can't access moodle",
+        "Moodle Tour",
+        "Explore Moodle",
+        "Features of Moodle",
+        "How do I access Moodle"
+      ],
+      "responses": [
+        "Welcome to our Moodle Tour! Join us on an exciting journey as we explore the incredible features and functionalities of Moodle. <br><br>To watch the video and discover how Moodle can transform your learning experience.<br> [Click here to watch the video](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F1%2E%20Moodle%20Tour%2FMoodle%20Tour%20Students%2DEdited%20Jan%202025%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
+      ]
+    },
     {
-  "tag": "TBC_Procedures",
-  "patterns": [
-    "Tell me about TBC Procedures",
-    "What are TBC Procedures?",
-    "Access TBC Procedures",
-    "TBC Procedures information"
-  ],
-  "responses": [
-    "To learn more about TBC Procedures, click [here](https://tbcollege0.sharepoint.com/sites/QASourcePoliciesProceduresForms/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FQASourcePoliciesProceduresForms%2FShared%20Documents%2FPolicies%20and%20Procedures%2FP%26P%20share%2FSLT%20Access%2FStaff%20Access%2Feveryone%2FTPR%20011%20%2D%20LMS%20003%20%2D%20LMS%20Assistance%20Request%2Epdf&parent=%2Fsites%2FQASourcePoliciesProceduresForms%2FShared%20Documents%2FPolicies%20and%20Procedures%2FP%26P%20share%2FSLT%20Access%2FStaff%20Access%2Feveryone&p=true&ga=1) for the link."
-    ]
-  }
-
-
+      "tag": "lockdown_browser",
+      "patterns": [
+        "Lockdown Browser features",
+        "Install Lockdown Browser",
+        "Why use Lockdown Browser at LCIT",
+        "Watch LockDown Browser video","browser", "lockdown browser"
+      ],
+      "responses": [
+        "You can download LockDown Browser by clicking on the link given below. [Download here](https://download.respondus.com/lockdown/download.php?id=455127677) <br> [image](https://loyalistcollege.com/wp-content/uploads/2023/10/LCIT-Home_Campus-1536x629.png)<br>"
+      ]
+    },
+    {
+      "tag": "schedule",
+      "patterns": [
+        "How do i find my schedule?",
+        "How do i locate my schedule?",
+        "Where can i see my schedule?",
+        "Finding my schedule"
+      ],
+      "responses": [
+        "You can easily find your schedule by logging into Moodle and navigating to the 'Schedule' section. If you need further assistance, please let me know."
+      ]
+    },
+    {
+      "tag": "submit_assignment",
+      "patterns": [
+        "How to submit my assignment?",
+        "Can you guide me in submitting assignments?",
+        "Assignment submission process"
+      ],
+      "responses": [
+        "Watch the video to learn how to submit your assignment.<br> [Click here to watch the video.](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F3%2E%20How%20to%20submit%20My%20Assignment%2FHow%20to%20Submit%20Assignment%20%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
+      ]
+    },
+    {
+      "tag": "find_teacher_email",
+      "patterns": [
+        "How to find my teachers email?",
+        "Locate instructors email",
+        "Where can I find my teachers contact?",
+        "Teacher email address in Moodle", "How can I locate my teacher's email?", "Teachers email address in moodle", "Wher can I find my teahcers email?", "Locating teacher's email", "Findin my teachers contact info", "Teacher's email in modle", "Locate my teachers emaill", "How to get my teacher's email?", "Instructor email address", "How do I find my instructors email?", "Locate teacher's contact information", "How to view teacher's email in Moodle?", "How to find my teachers emaill?", "Wher can I locate my teahcers email?", "Finding instructors email", "Teacher email on Moodle", "Teacher's contact in moddle", "Where to find teachers email?", "Locate email of teacher in modle", "Locate teacher's email addres", "How do I locate my teacher's email?", "Teacher's email address", "Teacher contact info in Moodle", "How can I find teacher's email?", "Locate instructor's email", "Find teachers email", "Locate teacher's contact info in moodle"
+      ],
+      "responses": [
+        "Watch our helpful video tutorial to learn how to easily locate your teacher's email address within Moodle.<br> [Click here to watch the video](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F4%2E%20How%20to%20find%20my%20Teacher%27s%20email%2FHow%20to%20View%20Instructor%27s%20email%20%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
+      ]
+    },
+    {
+      "tag": "find_grades",
+      "patterns": [
+        "How to find my grades?",
+        "Access course grades in Moodle",
+        "Check academic progress",
+        "View my grades"
+      ],
+      "responses": [
+        "Explore with us in this informative video tutorial, where we'll walk you through accessing your courses and checking your grades within Moodle. <br>[Click here to watch the video !](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F5%2E%20How%20to%20Find%20my%20course%20and%20Grades%2FHow%20To%20View%20courses%20and%20grades%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
+      ]
+    },
+     {
+      "tag": "LinkedIn_Learning",
+      "patterns": [
+        "how to use linkedin learning",
+        "What is Linkedin Learning?",
+        "Tell me about Linkedin Learning",
+        "Courses on Linkedin Learning",
+        "Access to Linkedin Learning",
+        "linkedin courses","linkedin course", "LinkedIn Courses", "linked in courses", "linkdin courses", "linkdin cours", "linkedin cours", "linkdn courses", "linkedin cours", "linkden courses", "linked-in courses", "linkd courses", "linkein courses", "linkedln courses", "linkedincourses", "linkedncourses", "liknedin courses", "linkedin corses", "linkedin coures", "linkedin coureses", "linkedin coursse", "linkedin coruses", "linkedin course", "linked in course", "linkdin course", "linkedin course", "linked-in course", "linkd course", "linkein course", "linkedln course", "linkedincourse", "linkedncourse", "liknedin course", "linkedin corse", "linkedin coure", "linkedin courese", "linkedin coursse", "linkedin coruse", "linkedn course", "linkedin coure",
+        "how to use linkedin learning", "What is Linkedin Learning?", "Tell me about Linkedin Learning", "Courses on Linkedin Learning", "Access to Linkedin Learning", "How do I use Linked in Learnin?", "What's Linkedin Learning?", "Can you explain Linked in lerning?", "Courses in Linked in Learning", "How can i use linkdin leerning", "How can I join Linkedin Learnin?", "how to use Linked in lerning", "What is Linkedln Learnin?", "Wher can I find Linked in lerning?", "Can I access Linked in Learnin?", "How do you use linkedin learning?", "How to register for Linked in Learning", "How do I access Linked in Learning?", "What's the purpose of Linked in Learning?", "Linkedin Learning", "how to use linkedn learning", "What is Linkdin Learning?", "Tell me about Linkdin Learning", "Courses on Linkdin Learning", "Access to Linkdin Learning", "How do I use Linkdin Learning?", "What's Linkedln Learning?", "Can you explain Linkdin Learning?", "Courses in Linkdin Learning", "How can i use Linkdin Learning?", "How can I join Linkdin Learning?", "how to use Linkdin Learning", "What is Linkedn Learning?", "Where can I find Linkdin Learning?", "Can I access Linkdin Learning?", "How do you use Linkdin Learning?", "How to register for Linkdin Learning", "How do I access Linkdin Learning?", "What's the purpose of Linkdin Learning?", "Linkedin Lerning", "what is linkedin lerning", "Can you tell me about linkedin lerning", "Courses on linkedin lerning", "Access to linkedin lerning", "how to use linkedin lerning", "What's linkedln lerning?", "Can you explain linkedin lerning?", "Courses in linkedin lerning", "How can I use linkedin lerning?", "How can I join linkedin lerning?", "How to use linkedin lerning", "What is linkedln lerning?", "Where can I find linkedin lerning?", "Can I access linkedin lerning?", "How do you use linkedin lerning?", "How to register for linkedin lerning", "How do I access linkedin lerning?", "What's the purpose of linkedin lerning?"
+      ],
+      "responses": [
+        "LinkedIn Learning is an American online learning platform available for all students at LCIT. It provides video courses taught by industry experts in software, creative, and business skills. Click [here](https://adfs.lcaat.ca/adfs/ls/?SAMLRequest=fZJLU8IwFIX3%2FopO9n0QUDRDy5SiI6NghcqCDRPaUDKkCc1NW%2FXXW3mMujGLTDJzz7nnfslg%2BF4Iq2YauJI%2B6jgesphMVcZl7qO35MG%2BRcPgagC0EPhAwsrs5JyVFQNjjduNS2qOyp0xByCuS7MtOCKl1DgpPd5cAS6yHpRO2VHuoy0VwJA1GfvoebI2WV6U%2B%2B1NV%2FdV73q%2FV6rmeVnedXBbAjEF4DX7EQFUbCLBUGl8hD3csTuejb0EY9Lrkeuuc%2Bv1V8iKtTIqVWLE5WmWSkuiKHAgkhYMiEnJIpw%2BE%2Bx4ZHMqAvKYJLEdvywSZC0vTPA3k5aSBHKi8L%2FX4dwYBSdo5JhY%2F3b436AdmOlvqCi4QG2axhFc7lmb0klV4QpGtWwTu%2BHoPjyv%2FIOez%2F1o1bw%2BTrvR50jUOc%2FKeOnN1zP81GyibLnj%2BcD9HS24vO6szTIZx0rw9MMKhVBNpBk1LXyjK4bc4Kz7%2Bw%2BCLw%3D%3D) to get access."
+      ]
+    }
   ]
 }

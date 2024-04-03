@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 class NeuralNet(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
@@ -18,3 +18,8 @@ class NeuralNet(nn.Module):
         out = self.l3(out)
         # no activation and no softmax at the end
         return out
+
+class ChatbotModel:
+    def __init__(self, input_size, hidden_size, num_classes):
+        self.vectorizer = TfidfVectorizer()
+        self.model = NeuralNet(input_size, hidden_size, num_classes)
