@@ -14,6 +14,7 @@ lemmatizer = WordNetLemmatizer()
 spell = SpellChecker()
 
 def tokenize(sentence):
+    print("Sentence: ",sentence)
     """
     Split sentence into array of words/tokens.
     A token can be a word or punctuation character, or number.

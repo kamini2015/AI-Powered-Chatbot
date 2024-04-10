@@ -20,6 +20,7 @@ class NeuralNet(nn.Module):
         return out
 
 class ChatbotModel:
+
     def __init__(self, input_size, hidden_size, num_classes):
         self.vectorizer = TfidfVectorizer()
         self.model = NeuralNet(input_size, hidden_size, num_classes)

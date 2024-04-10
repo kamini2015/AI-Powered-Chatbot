@@ -24,6 +24,7 @@ input_size = data["input_size"]
 hidden_size = data["hidden_size"]
 output_size = data["output_size"]
 all_words = data['all_words']
+
 tags = data['tags']
 model_state = data["model_state"]
 
@@ -73,7 +74,7 @@ def get_response(msg):
     if prob.item() > 0.85:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                return random.choice(intent['responses'])
+                return random.choice(intent['responses']), tag,prob.item(),tokens,msg
 
     # If the probability is not high enough or no appropriate response is found, provide a default response
     return "Apologies, I didn't get that. Could you try saying it differently?"

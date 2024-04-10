@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "chatbot-moodle-419820",
+  "private_key_id": "d2697dc4f32ffbc739812304baabb12fc432c5c5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpmLL4Vy7MAqnV\nETcNdHU6KjQOu0W4Lf2HAbsfizv4ySf+2DwZH/VERN2p9eV98aovl3ISHR4UwfMy\nuAoMTIUoIruOHAE0FO0TsnwCszLXZKtD7THTB8WAn3VXBueSrIW8PtVA1w74HJYo\nognrApxqjSQySUUhAX3TtPxpvVOl6b2ccVAZDMkXk0GQXv+/GMxrpNqUru24R39R\nINVE2cy2/z9l/rt86yKnHA9n4WL5kqnpmR4Hx6ueN2C2gb18J7tzbGWsSR5XQev6\nMCuPOTnD2n9K2hP+QatuQ/BH49Xb3RyOxDX/BR/wQbzkoNLFPBUdqsxmo4XUXgy4\nNKAttSebAgMBAAECggEALgpxv6BvaFvqvhiD0QfGEUnGwx8M8NCvbHjIU2ppmAMH\n9BPA0PNPkr59TLggGp5CHNRo18kG0wzKGIFE3Qzi8z/mmdA5dWme6MOCDfuW+Elw\ngyq/5XHNKLthUARkVnm2fqGyI/2eJzYff51pwt59FyIE6w/gD/NHNPODuLL4o+gM\nb8a2M4cQJKr0Emok2XNLuduWtAZlq2xUuMQSCrwPN8KQcqNygkmTi+z33ftl67dJ\ndg3TZikDXOTjy7HgYVthGJZfh943u/GhAycE/se9Yu56bomJWrXstop1RwZiQQNc\nTupwuvPkPHDPsTVeT7BOBNYdEoMKE7I0pQYZL9b8oQKBgQDl0JQY3I0wLnvExwk9\ntEZIcjxN9oHFDXaeOBAGGitv5dDQnhRJUpSPecw6arlPQRj2Q8ox43c5r8VmyRPl\nLYiKLNzYNAwmXiH3C8Ckn8nLpmpmjXirSb0cZO557uMWLdjjcWPIwcx17XvqyuXL\n/6asm0UIt9YAb5URx6Pbi50+4QKBgQC866Ae7+5rCQ/+nLZA19GdGiywzA+m0ThK\nSVm/0uLEgY5utMBVsY58P46HAk3QNM6M7fFgl2QDe84mF8txkSqvsJJFOg2QHnVy\n8f0/lWo7vKytBGAx2AwTDhgWzj+d9COdc6RGg1KA+7qLi1ZTU7yuA0xrbxZSBZ68\nmo1plp2h+wKBgGplHztHWGI3Evvt/bxAas19fafGeRvGeOUVJW39zaBXcE408UVk\n4vxtsfxVjoc/pxPUHJbuLTNayfQlIX3Xj8AQtwmtRva4W9co7L4Kb/1FhTsHQhdi\n4xdzLujqjN2myiO6Si0Wc9cg5F62Ip9IM1zz4YkAuyWmgwghOh4ZS+phAoGAUAZ7\niD9YPgzTsqXNagBBsYux3J5EDwTXFFin5OK+3kCHBgwY4PPaiHUfub7XGVgVGot8\nUM8wNW2PMIGp0wyMCWoBO8PQlPjiBXPOM83l9zH/7zZITTTYQIYa3CY3un/9Sif/\nMUNVgn+fUJcQVTHGXevVxjiDOvFYgUnylwSO91sCgYEAuFKjWwlWSWwnFzbVyf/e\n46kPN23go1WL0Uv9Jm17GFgkq4xBLxeb9BthoFkv3nJVgtfVvAiBpMe5f3xraVmD\nNtHtO5RlyxuA4PWylyjtoBBFo2IRbL6Q0cfxZCIbwVVT/WetAjBitVWt+DgifDOo\nTimUDkRoEcvv431No1mbt2I=\n-----END PRIVATE KEY-----\n",
+  "client_email": "chatbot-moodle@chatbot-moodle-419820.iam.gserviceaccount.com",
+  "client_id": "106409929265143082094",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chatbot-moodle%40chatbot-moodle-419820.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

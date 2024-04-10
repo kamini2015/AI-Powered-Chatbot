@@ -5,9 +5,7 @@
       "patterns": [
         "Hi.+",
         "hi",
-        "Hey.+",
         "hie",
-        "hie.+",
         "How are you",
         "Hello", "hey", "hey.+", "hy"
       ],
@@ -43,6 +41,18 @@
         "Welcome to our Moodle Tour! Join us on an exciting journey as we explore the incredible features and functionalities of Moodle. <br><br>To watch the video and discover how Moodle can transform your learning experience.<br> [Click here to watch the video](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F1%2E%20Moodle%20Tour%2FMoodle%20Tour%20Students%2DEdited%20Jan%202025%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
       ]
     },
+     {
+      "tag": "Moodle login IT",
+      "patterns": [
+        "how to login into moodle",
+        "can't login moodle",
+        "Moodle login"
+      ],
+      "responses": [
+        "You can learn how to login in to moodle by clicking this link: [Click here](https://tbcollege0.sharepoint.com/sites/ExternShare/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F2%2E%20How%20to%20Login%20Moodle%2FMoodle%20Login%2Epdf&parent=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F2%2E%20How%20to%20Login%20Moodle&p=true&ga=1)"
+      ]
+    },
+
     {
       "tag": "lockdown_browser",
       "patterns": [
@@ -52,7 +62,7 @@
         "Watch LockDown Browser video","browser", "lockdown browser"
       ],
       "responses": [
-        "You can download LockDown Browser by clicking on the link given below. [Download here](https://download.respondus.com/lockdown/download.php?id=455127677) <br> [image](https://loyalistcollege.com/wp-content/uploads/2023/10/LCIT-Home_Campus-1536x629.png)<br>"
+        "You can download LockDown Browser by clicking on the link given below. [Download here](https://download.respondus.com/lockdown/download.php?id=455127677)."
       ]
     },
     {
@@ -61,7 +71,8 @@
         "How do i find my schedule?",
         "How do i locate my schedule?",
         "Where can i see my schedule?",
-        "Finding my schedule"
+        "Finding my schedule",
+        "Locating my schedule"
       ],
       "responses": [
         "You can easily find your schedule by logging into Moodle and navigating to the 'Schedule' section. If you need further assistance, please let me know."
@@ -72,7 +83,8 @@
       "patterns": [
         "How to submit my assignment?",
         "Can you guide me in submitting assignments?",
-        "Assignment submission process"
+        "Assignment submission process",
+        "How do I turn in my Assignment?", "Where do I submit my Assignment?", "Instructions for Assignment submission", "Assignment submission help", "Submit my homework"
       ],
       "responses": [
         "Watch the video to learn how to submit your assignment.<br> [Click here to watch the video.](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F3%2E%20How%20to%20submit%20My%20Assignment%2FHow%20to%20Submit%20Assignment%20%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
@@ -84,7 +96,11 @@
         "How to find my teachers email?",
         "Locate instructors email",
         "Where can I find my teachers contact?",
-        "Teacher email address in Moodle", "How can I locate my teacher's email?", "Teachers email address in moodle", "Wher can I find my teahcers email?", "Locating teacher's email", "Findin my teachers contact info", "Teacher's email in modle", "Locate my teachers emaill", "How to get my teacher's email?", "Instructor email address", "How do I find my instructors email?", "Locate teacher's contact information", "How to view teacher's email in Moodle?", "How to find my teachers emaill?", "Wher can I locate my teahcers email?", "Finding instructors email", "Teacher email on Moodle", "Teacher's contact in moddle", "Where to find teachers email?", "Locate email of teacher in modle", "Locate teacher's email addres", "How do I locate my teacher's email?", "Teacher's email address", "Teacher contact info in Moodle", "How can I find teacher's email?", "Locate instructor's email", "Find teachers email", "Locate teacher's contact info in moodle"
+        "Teacher email address in Moodle", "How can I locate my teacher's email?",
+        "Finding my teachers contact info", "Teacher's email in moodle",
+        "How to get my teacher's email?", "Instructor email address",
+        "How do I find my instructors email?", "Locate teacher's contact information",
+        "How to view teacher's email in Moodle?"
       ],
       "responses": [
         "Watch our helpful video tutorial to learn how to easily locate your teacher's email address within Moodle.<br> [Click here to watch the video](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F4%2E%20How%20to%20find%20my%20Teacher%27s%20email%2FHow%20to%20View%20Instructor%27s%20email%20%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
@@ -96,7 +112,8 @@
         "How to find my grades?",
         "Access course grades in Moodle",
         "Check academic progress",
-        "View my grades"
+        "View my grades",
+        "check my grades"
       ],
       "responses": [
         "Explore with us in this informative video tutorial, where we'll walk you through accessing your courses and checking your grades within Moodle. <br>[Click here to watch the video !](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F5%2E%20How%20to%20Find%20my%20course%20and%20Grades%2FHow%20To%20View%20courses%20and%20grades%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
@@ -111,11 +128,367 @@
         "Courses on Linkedin Learning",
         "Access to Linkedin Learning",
         "linkedin courses","linkedin course", "LinkedIn Courses", "linked in courses", "linkdin courses", "linkdin cours", "linkedin cours", "linkdn courses", "linkedin cours", "linkden courses", "linked-in courses", "linkd courses", "linkein courses", "linkedln courses", "linkedincourses", "linkedncourses", "liknedin courses", "linkedin corses", "linkedin coures", "linkedin coureses", "linkedin coursse", "linkedin coruses", "linkedin course", "linked in course", "linkdin course", "linkedin course", "linked-in course", "linkd course", "linkein course", "linkedln course", "linkedincourse", "linkedncourse", "liknedin course", "linkedin corse", "linkedin coure", "linkedin courese", "linkedin coursse", "linkedin coruse", "linkedn course", "linkedin coure",
-        "how to use linkedin learning", "What is Linkedin Learning?", "Tell me about Linkedin Learning", "Courses on Linkedin Learning", "Access to Linkedin Learning", "How do I use Linked in Learnin?", "What's Linkedin Learning?", "Can you explain Linked in lerning?", "Courses in Linked in Learning", "How can i use linkdin leerning", "How can I join Linkedin Learnin?", "how to use Linked in lerning", "What is Linkedln Learnin?", "Wher can I find Linked in lerning?", "Can I access Linked in Learnin?", "How do you use linkedin learning?", "How to register for Linked in Learning", "How do I access Linked in Learning?", "What's the purpose of Linked in Learning?", "Linkedin Learning", "how to use linkedn learning", "What is Linkdin Learning?", "Tell me about Linkdin Learning", "Courses on Linkdin Learning", "Access to Linkdin Learning", "How do I use Linkdin Learning?", "What's Linkedln Learning?", "Can you explain Linkdin Learning?", "Courses in Linkdin Learning", "How can i use Linkdin Learning?", "How can I join Linkdin Learning?", "how to use Linkdin Learning", "What is Linkedn Learning?", "Where can I find Linkdin Learning?", "Can I access Linkdin Learning?", "How do you use Linkdin Learning?", "How to register for Linkdin Learning", "How do I access Linkdin Learning?", "What's the purpose of Linkdin Learning?", "Linkedin Lerning", "what is linkedin lerning", "Can you tell me about linkedin lerning", "Courses on linkedin lerning", "Access to linkedin lerning", "how to use linkedin lerning", "What's linkedln lerning?", "Can you explain linkedin lerning?", "Courses in linkedin lerning", "How can I use linkedin lerning?", "How can I join linkedin lerning?", "How to use linkedin lerning", "What is linkedln lerning?", "Where can I find linkedin lerning?", "Can I access linkedin lerning?", "How do you use linkedin lerning?", "How to register for linkedin lerning", "How do I access linkedin lerning?", "What's the purpose of linkedin lerning?"
-      ],
+        "how to use linkedin learning", "What is Linkedin Learning?",
+        "Tell me about Linkedin Learning", "Courses on Linkedin Learning"
+       ],
       "responses": [
         "LinkedIn Learning is an American online learning platform available for all students at LCIT. It provides video courses taught by industry experts in software, creative, and business skills. Click [here](https://adfs.lcaat.ca/adfs/ls/?SAMLRequest=fZJLU8IwFIX3%2FopO9n0QUDRDy5SiI6NghcqCDRPaUDKkCc1NW%2FXXW3mMujGLTDJzz7nnfslg%2BF4Iq2YauJI%2B6jgesphMVcZl7qO35MG%2BRcPgagC0EPhAwsrs5JyVFQNjjduNS2qOyp0xByCuS7MtOCKl1DgpPd5cAS6yHpRO2VHuoy0VwJA1GfvoebI2WV6U%2B%2B1NV%2FdV73q%2FV6rmeVnedXBbAjEF4DX7EQFUbCLBUGl8hD3csTuejb0EY9Lrkeuuc%2Bv1V8iKtTIqVWLE5WmWSkuiKHAgkhYMiEnJIpw%2BE%2Bx4ZHMqAvKYJLEdvywSZC0vTPA3k5aSBHKi8L%2FX4dwYBSdo5JhY%2F3b436AdmOlvqCi4QG2axhFc7lmb0klV4QpGtWwTu%2BHoPjyv%2FIOez%2F1o1bw%2BTrvR50jUOc%2FKeOnN1zP81GyibLnj%2BcD9HS24vO6szTIZx0rw9MMKhVBNpBk1LXyjK4bc4Kz7%2Bw%2BCLw%3D%3D) to get access."
       ]
-    }
+    },
+     {
+      "tag": "LinkedIn_Learning Login IT",
+      "patterns": [
+        "how to login linkedin learning",
+        "login to linkedin courses"
+      ],
+      "responses": [
+        "You can login to Linkedin learning [Click here](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FLCIB%20Resources%2FIT%20Rise%20Page%2FLinkedIn%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)."
+      ]
+    },
+
+    {
+      "tag": "graduation_documents",
+      "patterns": [
+        "Procedure for Graduation Documents Pick-up",
+        "Transcripts Pick-up Process",
+        "Valid Proof of Identity for Graduation Documents",
+        "Assigning a Representative for Documents Pick-up",
+        "Instructions for Assigning a Representative"
+      ],
+      "responses": [
+        "Students who received an email to pick-up their graduation documents or transcript must come to the campus on the schedule provided on the email and bring their original valid proof of identity (i.e. student ID, passport, license). If you would like to assign a representative to pick-up your transcript or graduation documents, you must send an email to registration@tbcollege.com. You must follow the instructions provided to you on the email and DO NOT send your authorized representative without completing the process yet to avoid the any inconvenience. The authorized representative must follow the instructions provided to you."
+      ]
+    },
+     {
+      "tag": "study_permit_extension",
+      "patterns": [
+        "Procedure for Study Permit Extension Letter",
+        "Requesting Study Permit Extension Letter",
+        "Information Required for Study Permit Extension Letter",
+        "Timeframe for Study Permit Extension Letter"
+      ],
+      "responses": [
+        "Please send an email request using your college email account to registration@tbcollege.com. You must include on your email your name, student ID number, program, and the copy of your study permit. We will provide you your study permit extension letter within 2 to 3 business days upon receive of the request."
+      ]
+    },
+    {
+      "tag": "update_profile",
+      "patterns": [
+        "Procedure for Updating Profile at Services Portal",
+        "Updating Contact Information on Services Portal",
+        "Updating Immigration Documents on Services Portal",
+        "Link to Services Portal",
+        "How can I update my profile on the services portal?",
+        "What's the process for updating my profile?",
+        "Where do I go to update my contact information?",
+        "Is there a way to update my profile easily?",
+        "Can you guide me through updating my profile?",
+        "I need to update my profile, can you help?",
+        "Where can I find the option to update my profile?",
+        "I want to make changes to my profile, what should I do?"
+      ],
+      "responses": [
+        "Students must ensure that they have updated contact information (phone number, address), and immigration document/s (permit/s) on the Services Portal. Link to the Services Portal: [Services Portal](https://services.tbcollege.com/)"
+      ]
+    },
+     {
+      "tag": "service_desk",
+      "patterns": [
+        "Facing issues with myLoyalist portal",
+        "Contact Service Desk for portal issues",
+        "Technical support for myLoyalist portal",
+        "Contacting Service Desk",
+        "Facing issues with myLoyalist portal",
+        "Contact Service Desk for portal issues",
+        "Technical support for myLoyalist portal",
+        "Contacting Service Desk",
+        "Experiencing problems with myLoyalist portal",
+        "Having trouble with myLoyalist account",
+        "Issues accessing myLoyalist portal",
+        "Help needed with myLoyalist portal login",
+        "Assistance required for myLoyalist portal",
+        "Trouble logging into myLoyalist portal",
+        "Seeking support for myLoyalist portal",
+        "Encountering difficulties with myLoyalist portal"
+      ],
+      "responses": [
+        "Having issue with your myLoyalist portal, please contact Service Desk by sending them an email at servicedesk@loyalistcollege.com. [Link](https://loyalistcollege.com/current-students/technology-services/help-desk/)"
+      ]
+    },
+    {
+      "tag": "completion_letter",
+      "patterns": [
+        "Status of Completion Letters for graduates",
+        "Receiving Completion Letters",
+        "Questions about Completion Letters",
+        "Completion Letter Inquiry"
+      ],
+      "responses": [
+        "Completion letters for Fall 2022 graduates were sent to the students college email account on January 24, 2023. For any questions or concerns, please send an email to info@loyalistcollege.com with your name, student ID number and program. [Link](https://loyalistcollege.com/current-students/student-forms/)"
+      ]
+    },
+    {
+      "tag": "enrollment_verification",
+      "patterns": [
+        "Process for Enrollment Verification",
+        "Verifying Enrollment Status",
+        "Obtaining Enrollment Verification",
+        "Process for Enrollment Verification",
+        "Enrollment Verification Procedure",
+        "Enrollment Verification Inquiry",
+        "Enrollment Verification Request",
+        "Enrollment Verification Steps"
+      ],
+      "responses": [
+        "Students can download Enrollment verification from your myLoyalist portal."
+      ]
+    },
+    {
+      "tag": "update_mailing_address",
+      "patterns": [
+        "Procedure for Updating Mailing Address",
+        "Updating Mailing Address for Final Semester",
+        "Procedure for Updating Mailing Address",
+        "Change of Mailing Address Process",
+        "Mailing Address Update Assistance",
+        "Mailing Address Change Guidance",
+        "Mailing Address Modification Process",
+        "Mailing Address Update Support",
+        "Mailing Address Update Instructions",
+        "Mailing Address Update Steps"
+      ],
+      "responses": [
+        "If you are on your final semester and you have excess money on your student’s account, you must update your mailing address so you can receive it back. The process would take at least 3 to 6 weeks. You may reach lcitaccounts@loyalistcollege.com if you have any inquiries. [Link](https://loyalistcollege.com/wp-content/uploads/2021/04/Mailing-Address-Instructions.pdf)"
+      ]
+    },
+    {
+      "tag": "co-op_programs",
+      "patterns": [
+        "Which programs require coop?",
+        "Co-op programs list",
+        "Programs with Coop requirement","Which programs require co-op?",
+        "Co-op programs list",
+        "Programs with Coop requirement",
+        "List of programs with co-op",
+        "Are there any programs with co-op?",
+        "Cooperative education programs",
+        "Co-op requirements in programs",
+        "Co-op program availability",
+        "Co-op program inquiries",
+        "Co-op program information",
+        "Co-op program details"
+      ],
+      "responses": [
+        "The following programs require co-op:<br>- Artificial Intelligence and Data Science<br>- Cloud Computing<br>- Cyber Security<br>- Hospitality Management – Canadian Hotels and Resorts<br>- Supply Change Management – Enterprise Resource Planning<br>- Wireless Information Networking<br>- Computer Software and Database Development<br>- Global Project Management<br>- Quality Engineering Management <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+      ]
+    },
+    {
+      "tag": "co-op_completion",
+      "patterns": [
+        "When do I need to complete co-op?",
+        "Co-op completion timeframe",
+        "Deadline for Co-op completion",
+        "When do I need to complete co-op?",
+        "Co-op completion timeframe",
+        "Deadline for Co-op completion",
+        "Co-op completion options",
+        "Co-op completion support"
+      ],
+      "responses": [
+        "Co-op will take place in Semester Four for the programs listed above. <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+      ]
+    },
+    {
+      "tag": "co-op_length",
+      "patterns": [
+        "What is the length of co-op?",
+        "Duration of Co-op",
+        "Co-op work term duration",
+        "Length of co-op program",
+        "Co-op program duration"
+      ],
+      "responses": [
+        "The co-op work term is generally 14 weeks. Students are required to complete a minimum of 420 work hours. Co-op starts the first day of classes in the last semester (semester 4). <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+      ]
+    },
+    {
+      "tag": "co-op_jobs",
+      "patterns": [
+         "Where can I find co-op jobs?",
+         "Co-op job postings",
+         "Finding co-op positions",
+         "Where can I find co-op jobs?",
+          "Co-op job postings",
+          "Finding co-op positions",
+          "Where to search for coop jobs?",
+          "Coop job opportunities",
+          "Cooperative education job listings",
+          "Looking for coop positions",
+          "Where can I locate coop job openings?",
+          "Coop employment opportunities",
+          "Where to find cooperative education job postings?"
+      ],
+      "responses": [
+        "Students are encouraged to apply for positions on the Devant Job Board which can be accessed on Moodle. This board has postings for part-time, full-time, and co-op positions. Devant can be accessed with this link [Devant Job Board](https://devant.careercentre.me/welcome/Devant-Group). <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+      ]
+    },
+    {
+      "tag": "co-op_paid",
+      "patterns": [
+        "Are co-op jobs paid or unpaid?",
+        "Payment for co-op positions",
+        "Compensation for co-op work",
+         "Are co-op jobs paid or unpaid?",
+        "Payment for co-op positions",
+        "Compensation for co-op work",
+        "Do co-op jobs offer payment?",
+        "Are co-op job salaries provided?",
+        "Are co-op roles paid or not?",
+        "Payment for cooperative education positions",
+        "Do co-op jobs come with compensation?",
+        "Are cooperative education jobs paid?",
+        "Compensation for cooperative education work",
+        "Are co-op positions compensated with salaries?",
+        "Do co-op jobs offer pay?",
+        "Are co-op job wages provided?",
+        "Are co-op roles offered payment?",
+        "Payment for coop positions"
+      ],
+      "responses": [
+        "Co-op jobs must be paid. <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+      ]
+    },
+    {
+      "tag": "preapproved_co-op",
+      "patterns": [
+        "What is a preapproved Co-op?",
+        "Procedure for preapproved Co-op",
+        "Preapproval process for Co-op"
+      ],
+      "responses": [
+        "For students who are unsure if a particular co-op position matches their program, you are encouraged to send the job description for pre-approval. Send the job description from the job posting to <b>careerservices <br>@tbcollege.com</b>, specifying this is for pre-approval. The academics department will review the job posting and will let you know if it is pre-approved. <br> Note:<br>- Your pre-approved job description will be on hold with a validity of 1 month<br>- If you wish to complete your co-op with the pre-approval submission, you need to inform the college before the validity expires along with submitting your Co-op offer letter that meets the Co-op checklist requirements.<br>- If you do not provide an update to Career Services within 1 month of receiving pre-approval, it will be revoked. <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+      ]
+    },
+    {
+      "tag": "AIP_inquiries",
+      "patterns": [
+        "Where can I go for questions regarding AIP?",
+        "Contact for AIP inquiries",
+        "Queries about Applied Industry Project"
+      ],
+      "responses": [
+        "You can find all the information about AIP on the page below:<br>- [Applied Industry Project: Innovation Hub | Rise 360](https://articulate.com/) <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+      ]
+    },
+
+
+     {
+      "tag": "career_center_services",
+      "patterns": [
+        "What services does the Career Center offer?",
+        "Services provided by Career Center",
+        "Career Center assistance"
+      ],
+      "responses": [
+        "The Career Center offers various services to help students with their career development, including:<br>- Resume and cover letter assistance<br>- Job search strategies<br> - Interview preparation<br>- Career counseling and exploration<br>- Workshops and events<br>- Access to job postings and co-op/placement opportunities. <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+      ]
+    },
+      {
+        "tag": "missed_assessment",
+        "patterns": [
+          "I missed the assessment",
+          "What should I do if I missed the assessment?",
+          "I couldn't attend the assessment",
+          "Missed the assessment, what now?",
+          "What's the procedure for missing the assessment?",
+          "I was unable to submit my assessment",
+          "I couldn't complete the assessment on time"
+        ],
+        "responses": [
+          "If you missed the assessment, please contact your instructor as soon as possible to discuss your situation. They will provide guidance on how to proceed. You can also fill out the missed assessment form [here](https://forms.office.com/pages/responsepage.aspx?id=PlKz1i9IoEKTulrUSLtK5CmSQlqeXtROpTBCYMDn29lUMFdTR0VaTFJIV1BBTVAzN0dCQTdQODdDVyQlQCN0PWcu"
+        ]
+      },
+    {
+      "tag": "career_services_email",
+      "patterns": [
+        "What is the email for Career Services?",
+        "Can I have the email address for Career Services?",
+        "I need to contact Career Services, what is their email?"
+      ],
+      "responses": [
+        "You can contact Career Services at careerservices@tbcollege.com or call 416-291-5155, ext. 267."
+      ]
+    },
+      {
+        "tag": "registration_office_email",
+        "patterns": [
+          "What is the email for Registration Office?",
+          "Can I have the email address for Registration Office?",
+          "I need to contact Registration Office, what is their email?"
+        ],
+        "responses": [
+          "You can contact the Registration Office at registration@tbcollege.com or call 416-291-5155, ext. 269/285."
+        ]
+      },
+      {
+        "tag": "student_success_email",
+        "patterns": [
+          "What is the email for Student Success?",
+          "Can I have the email address for Student Success?",
+          "I need to contact Student Success, what is their email?"
+        ],
+        "responses": [
+          "You can contact Student Success at studentsuccess@tbcollege.com or call 416-291-5155, ext. 260."
+        ]
+      },
+      {
+        "tag": "e_learning_email",
+        "patterns": [
+          "What is the email for E-Learning?",
+          "Can I have the email address for E-Learning?",
+          "I need to contact E-Learning, what is their email?"
+        ],
+        "responses": [
+          "You can contact E-Learning at E-Learning@tbcollege.com."
+        ]
+      },
+        {
+      "tag": "it_support_contact",
+      "patterns": [
+        "What is the contact information for IT Support?",
+        "Can I have the email for IT Support?",
+        "How can I contact IT Support?"
+      ],
+      "responses": [
+        "You can contact IT Support at itsupport@tbcollege.com or call 416-291-5155, extension 281."
+      ]
+    },
+      {
+      "tag": "printer_instructions",
+      "patterns": [
+        "How do I print at the college library?",
+        "Printer instructions",
+        "Printing guide"
+      ],
+      "responses": [
+        "Get ready to bring your digital documents to life with a few simple clicks. To know how to print on a desktop in the college library, [click here](https://tbcollege0.sharepoint.com/sites/ExternShare/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F7%2E%20Printer%20Instruction%20Using%20PC%2FPrinting%20Instruction%2Epdf&parent=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F7%2E%20Printer%20Instruction%20Using%20PC&p=true&ga=1)!"
+      ]
+    },
+    {
+        "tag": "scan_copy_instructions",
+        "patterns": [
+          "How do I scan or copy documents?",
+          "Scanning guide",
+          "Copying instructions"
+        ],
+        "responses": [
+          "For scanning or copying documents instructions, [click here](https://tbcollege0.sharepoint.com/sites/ExternShare/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F8%2E%20Scanning%20Instructions%2FScanning%20Instruction%20for%20student%2Epdf&parent=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F8%2E%20Scanning%20Instructions&p=true&ga=1)!"
+        ]
+      }
+
+
+
+
+
   ]
 }
