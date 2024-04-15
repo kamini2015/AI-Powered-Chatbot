@@ -3,11 +3,10 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi.+",
         "hi",
         "hie",
         "How are you",
-        "Hello", "hey", "hey.+", "hy"
+        "Hello", "hey", "hy"
       ],
       "responses": [
         "Hi there, how can I help?"
@@ -15,7 +14,7 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye","Bie", "Bie.+"],
+      "patterns": ["Bye", "Goodbye","Bie"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -28,7 +27,7 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "Moodle",
+      "tag": "Moodle_tour",
       "patterns": [
         "how to use moodle",
         "can't access moodle",
@@ -52,7 +51,15 @@
         "You can learn how to login in to moodle by clicking this link: [Click here](https://tbcollege0.sharepoint.com/sites/ExternShare/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F2%2E%20How%20to%20Login%20Moodle%2FMoodle%20Login%2Epdf&parent=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F2%2E%20How%20to%20Login%20Moodle&p=true&ga=1)"
       ]
     },
-
+    {
+      "tag": "Moodle",
+      "patterns": [
+        "what is moodle","why do we use moodle","can you explain moodle","moodle overview","I'm not familiar with Moodle. What is it?", "Could you explain Moodle to me?","Tell me more about Moodle."
+      ],
+      "responses": [
+        "Moodle is a learning management system used by LCIT to deliver course content and track student progress.<br> [Click here to learn more about Moodle](https://tbcollege0.sharepoint.com/sites/ExternShare/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F2%2E%20How%20to%20Login%20Moodle%2FMoodle%20Login%2Epdf&parent=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F2%2E%20How%20to%20Login%20Moodle&p=true&ga=1)"
+      ]
+    },
     {
       "tag": "lockdown_browser",
       "patterns": [
@@ -62,7 +69,7 @@
         "Watch LockDown Browser video","browser", "lockdown browser"
       ],
       "responses": [
-        "You can download LockDown Browser by clicking on the link given below. [Download here](https://download.respondus.com/lockdown/download.php?id=455127677)."
+        "You can download LockDown Browser by clicking on the link given below.[Download here](https://download.respondus.com/lockdown/download.php?id=455127677)"
       ]
     },
     {
@@ -72,7 +79,8 @@
         "How do i locate my schedule?",
         "Where can i see my schedule?",
         "Finding my schedule",
-        "Locating my schedule"
+        "Locating my schedule",
+        "which classes i have tomorrow","how to check my classes schedule"
       ],
       "responses": [
         "You can easily find your schedule by logging into Moodle and navigating to the 'Schedule' section. If you need further assistance, please let me know."
@@ -87,7 +95,7 @@
         "How do I turn in my Assignment?", "Where do I submit my Assignment?", "Instructions for Assignment submission", "Assignment submission help", "Submit my homework"
       ],
       "responses": [
-        "Watch the video to learn how to submit your assignment.<br> [Click here to watch the video.](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F3%2E%20How%20to%20submit%20My%20Assignment%2FHow%20to%20Submit%20Assignment%20%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
+        "Watch the video to learn how to submit your assignment.<br> [Click here to watch the video.](https://tbcollege0.sharepoint.com/:v:/s/ExternShare/EWT75T6iNGRCpzyp4bqkqBMBOtjFYUjtvmDErCJYdDcmCA?e=XS3AwZ)"
       ]
     },
     {
@@ -103,7 +111,7 @@
         "How to view teacher's email in Moodle?"
       ],
       "responses": [
-        "Watch our helpful video tutorial to learn how to easily locate your teacher's email address within Moodle.<br> [Click here to watch the video](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F4%2E%20How%20to%20find%20my%20Teacher%27s%20email%2FHow%20to%20View%20Instructor%27s%20email%20%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
+        "Watch our helpful video tutorial to learn how to easily locate your teacher's email address within Moodle.<br> [Click here to watch the video](https://tbcollege0.sharepoint.com/:v:/s/ExternShare/EdTr1Yk6hfJGmbGVsMfzsNMBtNaY03ojkuIH9sGCfJFd6A?e=pPr3cf)"
       ]
     },
     {
@@ -116,7 +124,7 @@
         "check my grades"
       ],
       "responses": [
-        "Explore with us in this informative video tutorial, where we'll walk you through accessing your courses and checking your grades within Moodle. <br>[Click here to watch the video !](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F2%2E%20E%2DLearning%2F5%2E%20How%20to%20Find%20my%20course%20and%20Grades%2FHow%20To%20View%20courses%20and%20grades%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
+        "Explore with us in this informative video tutorial, where we'll walk you through accessing your courses and checking your grades within Moodle. <br>[Click here to watch the video !](https://tbcollege0.sharepoint.com/:v:/s/ExternShare/Ec4bbGpkAS9LgdoOOyBcD9wBkcW4fE4wlKEC2DL9d66VhA?e=AiEDxH)"
       ]
     },
      {
@@ -132,7 +140,7 @@
         "Tell me about Linkedin Learning", "Courses on Linkedin Learning"
        ],
       "responses": [
-        "LinkedIn Learning is an American online learning platform available for all students at LCIT. It provides video courses taught by industry experts in software, creative, and business skills. Click [here](https://adfs.lcaat.ca/adfs/ls/?SAMLRequest=fZJLU8IwFIX3%2FopO9n0QUDRDy5SiI6NghcqCDRPaUDKkCc1NW%2FXXW3mMujGLTDJzz7nnfslg%2BF4Iq2YauJI%2B6jgesphMVcZl7qO35MG%2BRcPgagC0EPhAwsrs5JyVFQNjjduNS2qOyp0xByCuS7MtOCKl1DgpPd5cAS6yHpRO2VHuoy0VwJA1GfvoebI2WV6U%2B%2B1NV%2FdV73q%2FV6rmeVnedXBbAjEF4DX7EQFUbCLBUGl8hD3csTuejb0EY9Lrkeuuc%2Bv1V8iKtTIqVWLE5WmWSkuiKHAgkhYMiEnJIpw%2BE%2Bx4ZHMqAvKYJLEdvywSZC0vTPA3k5aSBHKi8L%2FX4dwYBSdo5JhY%2F3b436AdmOlvqCi4QG2axhFc7lmb0klV4QpGtWwTu%2BHoPjyv%2FIOez%2F1o1bw%2BTrvR50jUOc%2FKeOnN1zP81GyibLnj%2BcD9HS24vO6szTIZx0rw9MMKhVBNpBk1LXyjK4bc4Kz7%2Bw%2BCLw%3D%3D) to get access."
+        "LinkedIn Learning is an American online learning platform available for all students at LCIT. It provides video courses taught by industry experts in software, creative, and business skills. [Click here](https://adfs.lcaat.ca/adfs/ls/?SAMLRequest=fZJLU8IwFIX3%2FopO9n0QUDRDy5SiI6NghcqCDRPaUDKkCc1NW%2FXXW3mMujGLTDJzz7nnfslg%2BF4Iq2YauJI%2B6jgesphMVcZl7qO35MG%2BRcPgagC0EPhAwsrs5JyVFQNjjduNS2qOyp0xByCuS7MtOCKl1DgpPd5cAS6yHpRO2VHuoy0VwJA1GfvoebI2WV6U%2B%2B1NV%2FdV73q%2FV6rmeVnedXBbAjEF4DX7EQFUbCLBUGl8hD3csTuejb0EY9Lrkeuuc%2Bv1V8iKtTIqVWLE5WmWSkuiKHAgkhYMiEnJIpw%2BE%2Bx4ZHMqAvKYJLEdvywSZC0vTPA3k5aSBHKi8L%2FX4dwYBSdo5JhY%2F3b436AdmOlvqCi4QG2axhFc7lmb0klV4QpGtWwTu%2BHoPjyv%2FIOez%2F1o1bw%2BTrvR50jUOc%2FKeOnN1zP81GyibLnj%2BcD9HS24vO6szTIZx0rw9MMKhVBNpBk1LXyjK4bc4Kz7%2Bw%2BCLw%3D%3D)."
       ]
     },
      {
@@ -142,10 +150,9 @@
         "login to linkedin courses"
       ],
       "responses": [
-        "You can login to Linkedin learning [Click here](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FLCIB%20Resources%2FIT%20Rise%20Page%2FLinkedIn%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)."
+        "You can login to Linkedin learning [Click here to access](https://tbcollege0.sharepoint.com/sites/ExternShare/_layouts/15/stream.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FLCIB%20Resources%2FIT%20Rise%20Page%2FLinkedIn%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)"
       ]
     },
-
     {
       "tag": "graduation_documents",
       "patterns": [
@@ -165,10 +172,10 @@
         "Procedure for Study Permit Extension Letter",
         "Requesting Study Permit Extension Letter",
         "Information Required for Study Permit Extension Letter",
-        "Timeframe for Study Permit Extension Letter"
+        "Timeframe for Study Permit Extension Letter","how can i extend my study permit","Can you guide me through the procedure to extend my study permit?","What documentation is required to renew my study permit?","How long does it take to process a study permit extension?"
       ],
       "responses": [
-        "Please send an email request using your college email account to registration@tbcollege.com. You must include on your email your name, student ID number, program, and the copy of your study permit. We will provide you your study permit extension letter within 2 to 3 business days upon receive of the request."
+        "Please send an email request using your college email account to registration@tbcollege.com<br> <br>You must include on your email your <b>name, student ID number, program, and the copy of your study permit.</b><br>We will provide you your study permit extension letter within 2 to 3 business days upon receive of the request."
       ]
     },
     {
@@ -188,31 +195,7 @@
         "I want to make changes to my profile, what should I do?"
       ],
       "responses": [
-        "Students must ensure that they have updated contact information (phone number, address), and immigration document/s (permit/s) on the Services Portal. Link to the Services Portal: [Services Portal](https://services.tbcollege.com/)"
-      ]
-    },
-     {
-      "tag": "service_desk",
-      "patterns": [
-        "Facing issues with myLoyalist portal",
-        "Contact Service Desk for portal issues",
-        "Technical support for myLoyalist portal",
-        "Contacting Service Desk",
-        "Facing issues with myLoyalist portal",
-        "Contact Service Desk for portal issues",
-        "Technical support for myLoyalist portal",
-        "Contacting Service Desk",
-        "Experiencing problems with myLoyalist portal",
-        "Having trouble with myLoyalist account",
-        "Issues accessing myLoyalist portal",
-        "Help needed with myLoyalist portal login",
-        "Assistance required for myLoyalist portal",
-        "Trouble logging into myLoyalist portal",
-        "Seeking support for myLoyalist portal",
-        "Encountering difficulties with myLoyalist portal"
-      ],
-      "responses": [
-        "Having issue with your myLoyalist portal, please contact Service Desk by sending them an email at servicedesk@loyalistcollege.com. [Link](https://loyalistcollege.com/current-students/technology-services/help-desk/)"
+        "Students must ensure that they have updated contact information (phone number, address), and immigration document on the Services Portal. Link to the Services Portal: [Services Portal](https://services.tbcollege.com)"
       ]
     },
     {
@@ -224,7 +207,7 @@
         "Completion Letter Inquiry"
       ],
       "responses": [
-        "Completion letters for Fall 2022 graduates were sent to the students college email account on January 24, 2023. For any questions or concerns, please send an email to info@loyalistcollege.com with your name, student ID number and program. [Link](https://loyalistcollege.com/current-students/student-forms/)"
+        "You will receive an email from the Registration Department regarding your completion letter. For any further questions or concerns, please send an email to registration@tbcollege.com with your name, student ID number, and program or you can fill up this form [Link for the form](https://loyalistcollege.com/current-students/student-forms/)"
       ]
     },
     {
@@ -237,10 +220,12 @@
         "Enrollment Verification Procedure",
         "Enrollment Verification Inquiry",
         "Enrollment Verification Request",
-        "Enrollment Verification Steps"
+        "Enrollment Verification Steps", "how to download my enrollment verification letter","how to download my enrollment letter", "how can i find my enrollment letter",
+        "how can i get my enrollment letter","where can i find my enrollment letter for download","i need help download ing my enrollment letter",
+        "How do I obtain my enrollment letter for download","I'm looking to download my enrollment letter. How can I do that?"
       ],
       "responses": [
-        "Students can download Enrollment verification from your myLoyalist portal."
+        "Students can download Enrollment verification documents through their myLoyalist portal."
       ]
     },
     {
@@ -262,6 +247,14 @@
       ]
     },
     {
+      "tag": "about_co-op",
+      "patterns": [
+        "Can you explain what co-op is?","What exactly is a co-op program?","Can you tell me more about co-op opportunities?","What does co-op stand for?","Can you provide more information about the co-op program?","where to find co-op"
+      ],
+      "responses": [
+        "Co-op stands for cooperative education, which is a fantastic opportunity for students like you to combine classroom learning with real-world work experience. It's a chance to dive into your field of study, gain hands-on skills, and make connections in the industry. To know more about how co-op works at our college, contact us at careerservices@tbcollege.com" ]
+    },
+    {
       "tag": "co-op_programs",
       "patterns": [
         "Which programs require coop?",
@@ -279,7 +272,7 @@
         "Co-op program details"
       ],
       "responses": [
-        "The following programs require co-op:<br>- Artificial Intelligence and Data Science<br>- Cloud Computing<br>- Cyber Security<br>- Hospitality Management – Canadian Hotels and Resorts<br>- Supply Change Management – Enterprise Resource Planning<br>- Wireless Information Networking<br>- Computer Software and Database Development<br>- Global Project Management<br>- Quality Engineering Management <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+        "The following programs require co-op:<br>- Artificial Intelligence and Data Science<br>- Cloud Computing<br>- Cyber Security<br>- Hospitality Management – Canadian Hotels and Resorts<br>- Supply Change Management <br>- Enterprise Resource Planning<br>- Wireless Information Networking<br>- Computer Software and Database Development<br>- Global Project Management<br>- Quality Engineering Management <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
       ]
     },
     {
@@ -295,7 +288,7 @@
         "Co-op completion support"
       ],
       "responses": [
-        "Co-op will take place in Semester Four for the programs listed above. <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+        "Co-op will take place in Semester Four for the programs listed above. <br>If you have any questions, you can reach out to us at [Email](careerservices@tbcollege.com)"
       ]
     },
     {
@@ -329,7 +322,7 @@
           "Where to find cooperative education job postings?"
       ],
       "responses": [
-        "Students are encouraged to apply for positions on the Devant Job Board which can be accessed on Moodle. This board has postings for part-time, full-time, and co-op positions. Devant can be accessed with this link [Devant Job Board](https://devant.careercentre.me/welcome/Devant-Group). <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+        "Students are encouraged to apply for positions on the Devant Job Board which can be accessed on Moodle.<br> <br>This board has postings for part-time, full-time, and co-op positions. <br> Devant can be accessed with this link. <br> [Devant Link!](https://devant.careercentre.me/welcome/Devant-Group)"
       ]
     },
     {
@@ -351,11 +344,10 @@
         "Are co-op positions compensated with salaries?",
         "Do co-op jobs offer pay?",
         "Are co-op job wages provided?",
-        "Are co-op roles offered payment?",
-        "Payment for coop positions"
+        "Are co-op roles offered payment?"
       ],
       "responses": [
-        "Co-op jobs must be paid. <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+        "Co-op jobs must be paid.<br> <br>If you have any questions, you can reach out to us at careerservices@<br>tbcollege.com"
       ]
     },
     {
@@ -363,7 +355,7 @@
       "patterns": [
         "What is a preapproved Co-op?",
         "Procedure for preapproved Co-op",
-        "Preapproval process for Co-op"
+        "Preapproval process for Co-op", "pre-approved co-op", "where to find the pre-approved co-op list","pre-approved coop"
       ],
       "responses": [
         "For students who are unsure if a particular co-op position matches their program, you are encouraged to send the job description for pre-approval. Send the job description from the job posting to <b>careerservices <br>@tbcollege.com</b>, specifying this is for pre-approval. The academics department will review the job posting and will let you know if it is pre-approved. <br> Note:<br>- Your pre-approved job description will be on hold with a validity of 1 month<br>- If you wish to complete your co-op with the pre-approval submission, you need to inform the college before the validity expires along with submitting your Co-op offer letter that meets the Co-op checklist requirements.<br>- If you do not provide an update to Career Services within 1 month of receiving pre-approval, it will be revoked. <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
@@ -372,15 +364,14 @@
     {
       "tag": "AIP_inquiries",
       "patterns": [
-        "Where can I go for questions regarding AIP?",
+        "Where can I go for questions regarding AIP?","AIP",
         "Contact for AIP inquiries",
         "Queries about Applied Industry Project"
       ],
       "responses": [
-        "You can find all the information about AIP on the page below:<br>- [Applied Industry Project: Innovation Hub | Rise 360](https://articulate.com/) <br>If you have any questions, you can reach out to us at careerservices@tbcollege.com"
+        "You can find all the information about AIP on the link below or you can reach out to us at careerservices@<br>tbcollege.com <br> [Applied Industry Project: Innovation Hub | Rise 360](https://articulate.com/)"
       ]
     },
-
 
      {
       "tag": "career_center_services",
@@ -396,16 +387,16 @@
       {
         "tag": "missed_assessment",
         "patterns": [
-          "I missed the assessment",
+          "I missed the assessment","i missed my assignment","What should I do if I missed the assignment?",
           "What should I do if I missed the assessment?",
-          "I couldn't attend the assessment",
-          "Missed the assessment, what now?",
-          "What's the procedure for missing the assessment?",
-          "I was unable to submit my assessment",
+          "I couldn't attend the assessment","I couldn't attend the assignment",
+          "Missed the assessment, what now?","Missed the assignment, what now?",
+          "What's the procedure for missing the assessment?", "What's the procedure for missing the assignment?",
+          "I was unable to submit my assessment","I was unable to submit my assignment",
           "I couldn't complete the assessment on time"
         ],
         "responses": [
-          "If you missed the assessment, please contact your instructor as soon as possible to discuss your situation. They will provide guidance on how to proceed. You can also fill out the missed assessment form [here](https://forms.office.com/pages/responsepage.aspx?id=PlKz1i9IoEKTulrUSLtK5CmSQlqeXtROpTBCYMDn29lUMFdTR0VaTFJIV1BBTVAzN0dCQTdQODdDVyQlQCN0PWcu"
+          "If you missed the assessment, please contact your instructor as soon as possible to discuss your situation. They will provide guidance on how to proceed.<br> You can also fill out the missed assessment form within five business days of the assessment date.<br> [Click here to fill out the form](https://forms.office.com/pages/responsepage.aspx?id=PlKz1i9IoEKTulrUSLtK5CmSQlqeXtROpTBCYMDn29lUMFdTR0VaTFJIV1BBTVAzN0dCQTdQODdDVyQlQCN0PWcu)"
         ]
       },
     {
@@ -438,7 +429,7 @@
           "I need to contact Student Success, what is their email?"
         ],
         "responses": [
-          "You can contact Student Success at studentsuccess@tbcollege.com or call 416-291-5155, ext. 260."
+          "You can contact Student Success at studentsuccess@<br>tbcollege.com or call 416-291-5155, ext. 260."
         ]
       },
       {
@@ -466,12 +457,13 @@
       {
       "tag": "printer_instructions",
       "patterns": [
-        "How do I print at the college library?",
-        "Printer instructions",
-        "Printing guide"
+        "How do I print at the college library?","where can i print my documents", "how to print",
+        "Printer instructions","print document",
+        "Printing guide", "need help with printer", "printer not working","can you guide me through the printing process","i don't know how to use printer", "instructions for using the printer",
+        "how to operate printer","printing assistance required","printer troubleshooting tips"
       ],
       "responses": [
-        "Get ready to bring your digital documents to life with a few simple clicks. To know how to print on a desktop in the college library, [click here](https://tbcollege0.sharepoint.com/sites/ExternShare/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F7%2E%20Printer%20Instruction%20Using%20PC%2FPrinting%20Instruction%2Epdf&parent=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F7%2E%20Printer%20Instruction%20Using%20PC&p=true&ga=1)!"
+        "Sure! To print at the college library, you can use the printer located on the ground floor. <br>[Click here for instructions](https://tbcollege0.sharepoint.com/:b:/s/ExternShare/ESiuO8JD3mRJti3iSFE4r9gBzC92nl7w_IxKHxDoOovZKg?e=6Ed661)"
       ]
     },
     {
@@ -479,15 +471,330 @@
         "patterns": [
           "How do I scan or copy documents?",
           "Scanning guide",
-          "Copying instructions"
+          "Copying instructions","need help with scanner", "scanner not working"
         ],
         "responses": [
-          "For scanning or copying documents instructions, [click here](https://tbcollege0.sharepoint.com/sites/ExternShare/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F8%2E%20Scanning%20Instructions%2FScanning%20Instruction%20for%20student%2Epdf&parent=%2Fsites%2FExternShare%2FShared%20Documents%2FMoodle%20Rise%20pages%2F5%2E%20E%2DLearning%20%26%20IT%20Support%2F1%2E%20IT%20Support%2F8%2E%20Scanning%20Instructions&p=true&ga=1)!"
+          "Sure! To scan at the college library, you can use the scanner located on the ground floor. [click here for scanning or copying documents instructions](https://tbcollege0.sharepoint.com/:b:/s/ExternShare/ERWLQCVEaTpLmE_8a7-puEMBPZUH6UPkN9HeB9WBQYuFyA?e=XDy47j)!"
         ]
-      }
+      },
+     {
+        "tag": "college_address",
+        "patterns": [
+          "location of loyalist college","where is my college","tell me the address of loyalist college",
+          "where is my college toronto","toronto",
+          "college address toronto campus"
+        ],
+        "responses": [
+          " The Toronto campus of Loyalist College is located at 4000 Victoria Park Ave, Toronto, ON M2H 3P4 [Click here for Location](https://www.google.com/maps/dir//4000+Victoria+Park+Ave,+Toronto,+ON+M2H+3P4/@43.8117942,-79.4287632,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x882b41402cc0a9a1:0xcbbad8abb8217bee!2m2!1d-79.34633!2d43.8118306?entry=ttu)"
+        ]
+      },
+      {
+          "tag": "e_learning",
+          "patterns": [
+            "e-learning","elearning questions","e-learning questions","questions about e-learning","elearning related questions"
+          ],
+          "responses": [
+            "Here are some common questions you can ask about e-learning: <br><b>- how to use moodle? <br>-lockdown browser <br>-how to find my schedule? <br>-how to find teacher's email? <br>-how to find my grades <br>-how to use linkedin learning,</b><br>Feel free to ask any of these questions, and I'll do my best to assist you!"
+          ]
+        },
+       {
+          "tag": "IT_support",
+          "patterns": [
+            "It Support","itsupport","it support questions"
+          ],
+          "responses": [
+            "Here are some common questions you can ask about IT Support: <br><b>- how to Login into moodle? <br>-How to print/Scan? <br>-how to login to linkedin account? </b><br>Feel free to ask any of these questions, and I'll do my best to assist you!"
+          ]
+        },
+      {
+        "tag": "co-op",
+        "patterns": [
+              "co-op","co-op career","co-op related questions","coop"
+            ],
+        "responses": [
+              "Here are some common questions you can ask about Co-op and career Services: <br><b>- Is co-op paid ? <br>-Which programs have co-op <br>-what is the length of co-op?</b><br>Feel free to ask any of these questions, and I'll do my best to assist you!"
+            ]
+          },
+        {
+          "tag": "software_list",
+          "patterns": [
+            "What software do I need for my course?",
+            "Which software is required for my program?",
+            "List of software needed for my course"
+          ],
+          "responses": [
+            "For your course, It's best to check with your instructor for specific requirements. You can also refer to the course software list PDF document [Click here](https://tbcollege0.sharepoint.com/:b:/s/ExternShare/EVC3lOAuGIFFotWGvexpDGcBQ5s6Fr2XRfs2MJF89DsYBQ?e=GKg6Zb)."
+          ]
+       },
+       {
+        "tag": "outlook_365",
+        "patterns": [
+          "How do I use Microsoft Outlook 365?",
+          "Instructions for Microsoft Outlook 365",
+          "Help with Outlook 365","microsoft 365","how to use microsoft","how to login to microsoft","outlook not working"
+        ],
+        "responses": [
+          "To use Microsoft Outlook 365 effectively, you can refer to the instructions provided in this PDF document: [Outlook 365 User Guide](https://tbcollege0.sharepoint.com/:b:/s/ExternShare/EROfVbHhIPtBhEkm3tUPCfsB_jtAsRfSRBW92X-GCzeyAQ?e=9Jl8u4). It covers essential features and functions to help you get started."
+        ]
+      },
+       {
+        "tag": "lost_and_found",
+        "patterns": [
+          "Lost and found items",
+          "How do I report lost items?",
+          "Lost belongings"
+        ],
+        "responses": [
+          "If you have lost any items, please contact the security desk at the entrance of the college. They will assist you in reporting and retrieving lost belongings."
+        ]
+      },
+    {
+      "tag": "Events",
+      "patterns": [
+        "What events are happening?",
+        "Can you tell me about upcoming events?",
+        "Is there any event coming up?",
+        "Where can I find information about events?",
+        "I want to know about events",
+        "Tell me about the events",
+        "What's happening in the events?"
+      ],
+      "responses": [
+        "You can find information about upcoming events on our Moodle platform. Check out the Events section here: [Events](https://moodle.tbcollege.com/moodle/mod/folder/view.php?id=299455)"
+      ]
+    },
+      {
+    "tag": "GuardMeLink",
+    "patterns": [
+      "What is guard.me?","what is guard me?","what is guardme",
+      "Can you provide information about guard.me?",
+      "Tell me about guard me",
+      "I want to know about guard me",
+      "What does guard me offer?",
+      "What is the link for guard me?",
+      "Guard me details"
+    ],
+    "responses": [
+      "You can find detailed information about guard.me, our international insurance provider, on their official website. For more information Visit [Loyalist College | guard.me](https://www.guard.me/loyalistcollege)"
+    ]
+   },
+      {
+    "tag": "LOAError",
+    "patterns": [
+      "There is an error in my Letter of Acceptance (LOA), what should I do?",
+      "How can I fix the error in my LOA?",
+      "I found a mistake in my LOA, what can be done?",
+      "LOA has an error, how to correct it?",
+      "Issue with my Letter of Acceptance (LOA)",
+      "Problem with LOA"
+    ],
+    "responses": [
+      "If you've found an error in your Letter of Acceptance (LOA), please contact the international admissions team at [internationaladmissions@loyalistcollege.com](mailto:internationaladmissions@loyalistcollege.com) for assistance."
+      ]
+      },
+        {
+      "tag": "TranscriptRequest",
+      "patterns": [
+        "How do I get a copy of my transcript?",
+        "Where can I find my transcript?",
+        "How to access my transcript?",
+        "Need to request a transcript",
+        "Getting a copy of my transcript",
+        "Procedure to obtain my transcript"
+      ],
+      "responses": [
+        "To get a copy of your transcript, sign in to [myLoyalist](#) and click on the Banner icon. Once you're in Banner, navigate to 'Student Services' -> 'Student Records' -> 'Request Printed/Official Transcript.' Please remember not to select Loyalist College for the External College Code."
+      ]
+    },
+      {
+        "tag": "ShuttleBusService",
+        "patterns": [
+          "Does LCIT offer a shuttle bus service?",
+          "Is there a shuttle bus from LCIT?",
+          "Shuttle bus availability at LCIT?",
+          "How can I get to LCIT?",
+          "Is there transportation to LCIT?",
+          "Information on LCIT shuttle bus?",
+          "Is there a shuttle bus from college?",
+          "does college have a bus service",
+          "shuttle bus at college"
+        ],
+        "responses": [
+          "Yes, if you have an on-campus class schedule at LCIT, you can purchase an LCIT Shuttle Bus Pass. The College will post the details about the bus pass on Moodle."
+        ]
+      },
+      {
+        "tag": "LCIT_Student_ID",
+        "patterns": [
+          "How do I get my LCIT ID card?",
+          "Where can I pick up my LCIT ID?",
+          "How to get LCIT student card?",
+          "LCIT student ID process?",
+          "Where do I get my LCIT card?",
+          "LCIT ID pickup?",
+          "How to get student ID at LCIT?",
+          "LCIT card pickup?",
+          "how can i get my ID card","where to pick my id card"
+        ],
+        "responses": [
+          "Loyalist College in Toronto students must come to campus to pick up their Student ID cards. Students will need to bring their passport and Letter of Acceptance (LOA). Please visit reception from Monday to Friday, between 10 am and 2 pm, to have your photo taken and obtain your card."
+        ]
+      },
+    {
+      "tag": "health_insurance_card",
+      "patterns": [
+        "How do I get my health insurance card?",
+        "Where can I find my health insurance details?",
+        "How to get my health insurance information?",
+        "Health insurance card process?",
+        "Where will I get my insurance card?",
+        "How to receive health insurance details?",
+        "Insurance card pickup?"
+      ],
+      "responses": [
+        "Once registered, we will send you your health insurance information to your college email address after day 10 of the start of the semester. Please contact studentsuccess@tbcollege.com if you do not receive your policy number and any additional information about health insurance."
+      ]
+    },
+    {
+      "tag": "library_access",
+      "patterns": [
+        "How do I access the campus Library?",
+        "What is the process to enter the Library?",
+        "Library access steps?",
+        "How can I get into the campus Library?",
+        "Steps to access the TBC/LCIT Library?"
+      ],
+      "responses": [
+        "To access the TBC/LCIT Library, please visit https://tbcollege.librarika.com/ <br>Current students simply present their student identification cards at the reception desk when borrowing books."
+      ]
+    },
+    {
+      "tag": "break_letter",
+      "patterns": [
+        "How to get the Official Break Letter?",
+        "Obtain Official Break Letter",
+        "Official Break Letter process",
+        "How can I request a break letter?",
+        "Where can I find the break letter?"
+      ],
+      "responses": [
+        "Loyalist College does not provide letters for employment purposes confirming summer breaks. Instead, employers are requested to view the Academic Schedule, which outlines dates for scheduled programs. International Students are also encouraged to provide employers with a copy of their Letter of Acceptance (LOA) indicating the start/end dates of the academic program and their Study Permit, which outlines the conditions of their employment. Employers can also refer to this page on the Government of Canada’s website to review the eligibility requirements for working in Canada."
+      ]
+    },
+    {
+      "tag": "transcript_request",
+      "patterns": [
+        "How to get a transcript?",
+        "Obtain my transcript",
+        "Transcript request process",
+        "Where can I find my transcript?",
+        "How do I request a copy of my transcript?", "Need my academic transcript",
+      "Get a copy of my grades",
+      "How can I access my academic records?",
+      "Transcript availability",
+      "Transcript retrieval process",
+      "Steps to obtain my transcript",
+      "Transcript request deadline",
+      "Need official transcript",
+      "How to order my transcript?",
+      "Transcript access"
 
-
-
+      ],
+      "responses": [
+        "Sign in to myLoyalist and click the Banner icon. Once in Banner, click ‘Student Services – ‘Student Records’ – ‘Request Printed/Official Transcript.’ Note: Please do not select Loyalist College for the External College Code."
+      ]
+    },
+        {
+      "tag": "immigration_permits",
+      "patterns": [
+        "How can I apply for my study permit, co-op work permit and PGWP?",
+        "Process for study permit, co-op permit, and PGWP application",
+        "Applying for study permit and work permits",
+        "Study permit, co-op permit, and PGWP application",
+        "Procedure for immigration permits",
+        "Getting study permit, co-op permit, and PGWP",
+        "Study permit, co-op permit, and PGWP information",
+        "Applying for student visa and work permits",
+        "Procedure to apply for immigration permits",
+        "Co-op work permit and PGWP application",
+        "Study permit, co-op work permit, and PGWP details",
+        "Information on study permit, co-op permit, and PGWP",
+        "Study permit, co-op permit, and PGWP application steps"
+      ],
+      "responses": [
+        "Please contact the immigration consultant using your college email. You can check the availability and contact information of our immigration consultation on Moodle – Student Life – Professional Consultation."
+      ]
+    },
+        {
+      "tag": "wellness_consultation",
+      "patterns": [
+        "Does LCIT provide wellness consultation?",
+        "Wellness consultation services at LCIT?",
+        "Is there wellness counseling available?",
+        "Can I get wellness counseling at LCIT?",
+        "Where can I find wellness consultation at LCIT?",
+        "LCIT wellness consultation details",
+        "How to access wellness consultation at LCIT?",
+        "Information on wellness consultation at LCIT",
+        "LCIT wellness services",
+        "Wellness consultation availability","wellness consultation in college"
+      ],
+      "responses": [
+        "You can check the availability and contact information of our consultant psychotherapist on Moodle – Student Life – Professional Consultation."
+      ]
+    },
+      {
+    "tag": "course_retake_enrollment",
+    "patterns": [
+      "How to enroll to retake a course?",
+      "Retaking a course enrollment",
+      "Steps to retake a course",
+      "How can I retake a course?",
+      "How to enroll in a retake?"
+    ],
+    "responses": [
+      "Please follow the directions on the Moodle dashboard to add a course you wish to retake."
+    ]
+  },
+        {
+      "tag": "passing_grade",
+      "patterns": [
+        "What is the passing grade for a course?",
+        "Minimum grade to pass a course",
+        "Passing grade requirement",
+        "How much do I need to pass a course?",
+        "Course passing criteria"
+      ],
+      "responses": [
+        "All courses will have a minimum passing grade of 50%."
+      ]
+    },
+        {
+      "tag": "graduation_GPA",
+      "patterns": [
+        "What GPA do I need to graduate?",
+        "Minimum GPA for graduation",
+        "GPA requirement for graduation",
+        "Graduation GPA criteria",
+        "How much GPA is needed for graduation?"
+      ],
+      "responses": [
+        "A minimum of 60% GPA is required for graduation from all certificates, diplomas, advanced diplomas, and graduate diploma programs."
+      ]
+    },
+      {
+    "tag": "quiz_connectivity_issue",
+    "patterns": [
+      "I had a connectivity error during my quiz.",
+      "Quiz connectivity issue",
+      "What to do if I face connectivity error during a quiz?",
+      "Connectivity error in quiz",
+      "Quiz issue due to connection problem"
+    ],
+    "responses": [
+      "Be sure to document your error and error time. Send an email to your instructor to show your evidence for missing the assessment. If declined, fill out the following request form for accommodation within five business days of the assessment date. It will be assessed by the College."
+    ]
+  }
 
 
   ]
