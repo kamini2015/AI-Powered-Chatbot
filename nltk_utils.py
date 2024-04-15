@@ -8,13 +8,14 @@ from spellchecker import SpellChecker
 # Download NLTK resources
 # nltk.download('punkt')
 # nltk.download('wordnet')
+nltk.download('stopwords')
 
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 spell = SpellChecker()
 
 def tokenize(sentence):
-    print("Sentence: ",sentence)
+    # print("Sentence: ",sentence)
     """
     Split sentence into array of words/tokens.
     A token can be a word or punctuation character, or number.
@@ -22,7 +23,7 @@ def tokenize(sentence):
     tokens = nltk.word_tokenize(sentence)
     # Filter out tokens consisting only of punctuation characters
     tokens = [token for token in tokens if token.isalnum()]
-    print("Tokenized sentence:", tokens)
+    # print("Tokenized sentence:", tokens)
     return tokens
 
 def lemmatize(word):
@@ -30,7 +31,7 @@ def lemmatize(word):
     Lemmatize word to find its root form.
     """
     lemma = lemmatizer.lemmatize(word.lower())
-    print("Lemmatized word:", lemma)
+    # print("Lemmatized word:", lemma)
     return lemma
 
 def remove_stopwords(tokens):
@@ -38,15 +39,18 @@ def remove_stopwords(tokens):
     Remove stop words from the list of tokens.
     """
     filtered_tokens = [word for word in tokens if word.lower() not in stop_words]
-    print("Tokens after removing stop words:", filtered_tokens)
+    # print("Tokens after removing stop words:", filtered_tokens)
     return filtered_tokens
 
 def correct_spelling(tokens):
+    custom_words=["moodle", "lockdown","linkedin", "toronto","co-op","coop","microsoft","AIP"]
+    for word in custom_words:
+        spell.word_frequency.add(word)
     """
     Correct spelling mistakes in the list of tokens.
     """
     corrected_tokens = [spell.correction(word) for word in tokens]
-    print("Tokens after spelling correction:", corrected_tokens)
+    # print("Tokens after spelling correction:", corrected_tokens)
     return corrected_tokens
 
 def preprocess_text(sentence):

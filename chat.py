@@ -24,7 +24,6 @@ input_size = data["input_size"]
 hidden_size = data["hidden_size"]
 output_size = data["output_size"]
 all_words = data['all_words']
-
 tags = data['tags']
 model_state = data["model_state"]
 
@@ -68,16 +67,18 @@ def get_response(msg):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
 
-    print("Probability:", prob.item())
+    # print("Probability:", prob.item())
 
     # If the probability is high enough, select a response from the intents data based on the predicted tag
-    if prob.item() > 0.85:
+    if prob.item() > 0.90:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses']), tag,prob.item(),tokens,msg
-
+    else:
+        # other_response=[""]
+        return random.choice(["Apologies, I didn't get that. Could you try saying it differently?","Could you please clarify your question?","I didn't quite catch that. would you mind saying it in another way","I'm having trouble understanding your message. Can you try saying it in a different way?","I'm sorry, I didn't quite understand. Could you rephrase that?"]),"Didn't Understand",prob.item(),tokens,msg
     # If the probability is not high enough or no appropriate response is found, provide a default response
-    return "Apologies, I didn't get that. Could you try saying it differently?"
+    # return "Apologies, I didn't get that. Could you try saying it differently?"
 
 # Main block for running the chatbot interactively
 if __name__ == "__main__":
@@ -87,4 +88,4 @@ if __name__ == "__main__":
             break
 
         resp = get_response(sentence)  # Generating a response for the input message
-        print(resp)  # Printing the response
+        # print(resp)  # Printing the response
